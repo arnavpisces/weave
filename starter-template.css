@@ -1,0 +1,109 @@
+body {
+  padding-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.starter-template {
+  /* padding: 40px 15px; */
+  text-align: center;
+}
+.starter-template .firstheading{
+  font-weight: bold;
+  color: #F5A623;
+}
+.navbar-header{
+  background-color:white ;
+}
+
+.navbar-inverse{
+  background-color:white ;
+}
+.navbar-inverse .navbar-brand{
+  color: #F5A623;
+  font-weight: bold;
+  letter-spacing: 5px;
+  font-size: 150%;
+  margin-left: 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  color: black;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+.starter-template h1{
+  font-weight: bold;
+}
+.starter-template span{
+  font-size: 100%;
+  font-weight: normal;
+}
+
+.vision{
+  background-color: #f5f5fa;
+}
+
+.container{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+p{
+  padding-left: 10%;;
+  padding-right: 10%;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+  color:#F5A623;
+}
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover{
+  color: #F5A623;
+}
+.navbar-toggle{
+  background-color:#302F30;
+  margin-right: 20px;
+}
+.navbar-collapse{
+  padding-right: 45%;
+}
+.navbar-inverse .navbar-nav>li>a{
+  text-align: center;
+}
+address a{
+  transition: color 0.1s;
+}
+address a:hover{
+  color: #F5A623;
+}
+
+#overlay{
+    	display: none;
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	/* opacity: 0.8; */
+	z-index:1031;
+}
+
+#overlay-content{
+	position: absolute;
+  text-align: center;
+  vertical-align: middle;
+	display: none;
+	/* width: 360px; */
+	/* height: 90px; */
+	/* padding: 16px; */
+	/* border: 16px solid orange; */
+	background-color: white;
+	z-index:1002;
+}
+.loadinglogo{
+  text-align: center;
+  width: 50%;
+}
