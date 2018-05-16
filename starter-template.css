@@ -10,13 +10,14 @@ body {
 .starter-template .firstheading{
   font-weight: bold;
   color: #F5A623;
+  margin-top: 90px;
 }
 .navbar-header{
   background-color:white ;
 }
 
 .navbar-inverse{
-  background-color:white ;
+  background-color:#302F30;
 }
 .navbar-inverse .navbar-brand{
   color: #F5A623;
@@ -27,7 +28,11 @@ body {
 }
 
 .navbar-inverse .navbar-nav>li>a{
-  color: black;
+  color: #F5A623;
+  transition: 0.2s;
+}
+.navbar-inverse a:hover{
+  color:white;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
@@ -37,6 +42,7 @@ body {
 }
 .starter-template h1{
   font-weight: bold;
+  padding-top: 5px;
 }
 .starter-template span{
   font-size: 100%;
@@ -56,7 +62,7 @@ p{
   padding-left: 10%;;
   padding-right: 10%;
 }
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{
+.navbar-inverse .navbar-nav>li>a:focus{
   color:#F5A623;
 }
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover{
@@ -71,9 +77,10 @@ p{
 }
 .navbar-inverse .navbar-nav>li>a{
   text-align: center;
+      font-size: 130%;
 }
 address a{
-  transition: color 0.1s;
+  transition: 0.1s;
 }
 address a:hover{
   color: #F5A623;
@@ -148,4 +155,29 @@ address a:hover{
 .fa-envelope-open:before{
   color:#F5A623;
   font-size:350%;
+}
+
+.navbar-brand>img{
+  display: inline;
+  width:18%;
+}
+.navbar{
+  min-height: 80px;
+}
+.navbar-brand{
+  float:none;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header{
+  background-color: #302F30;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
+  background-color: #302F30;
+  color: #F5A623;
+}
+.navbar-nav>li>a{
+  padding-top: 52px;
+}
+
+.findhere{
+  margin-top:50px;
 }
