@@ -614,6 +614,12 @@ img {max-width: 100%;height:auto;}
 .peoplePopUp {display: none;}
 }
 
+@media (max-width:1200px) {
+  .row {
+      /* margin-right: -15px; */
+      /* margin-left: 70px; */
+  }
+}
 
 @media (max-width:1125px) {
 /*.home .number.wow.animate, .zinioBlockRow .numbersBox {zoom:0.7;}*/
@@ -759,6 +765,10 @@ img {max-width: 100%;height:auto;}
 .peoplePopUp .image {width: 200px; height: 200px;}
 .aboutCarrersRow .carrers .rbox-opening-li .rbox-opening-position-info
  {border:0;margin-left:0;padding-left:0; display: block;}
+   .aboutPeopleRow .peopleBox .people {
+     width: 30%;
+ }
+
 }
 
 @media (max-width:550px) {
@@ -805,7 +815,7 @@ img {max-width: 100%;height:auto;}
 @media (max-width:450px) {
 .mainBannerRow h3, .pubTitleBlockRow h2 {font-size:24px;}
 .aboutPeopleRow .peopleBox .people .image {width: 100px; height: 100px;}
-.aboutPeopleRow .peopleBox .people  { padding: 0 10px; width: 49%;}
+.aboutPeopleRow .peopleBox .people  { padding: 0 10px; width: 36%;}
 
 }
 @media (max-width:400px) {
@@ -823,7 +833,7 @@ img {max-width: 100%;height:auto;}
 .mainBannerRow .devices img:nth-child(11),
 .mainBannerRow .devices img:nth-child(12) {margin-top:20%;}
 .chanellsMenu .container2 {zoom:0.7;}
-.aboutPeopleRow .peopleBox .people {width: 100%;}
+.aboutPeopleRow .peopleBox .people {width: 38%;}
 .button {padding-left:20px;padding-right:20px;}
 .pubBigBannerRow .button { font-size: 12px; }
 .aboutCarrersRow .rbox-widget .rbox-btn {padding-left:20px; padding-right:20px;}

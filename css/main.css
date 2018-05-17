@@ -31,7 +31,7 @@
 }
 
 body, html {
-	height: 100%;
+	height: auto;
 	/* font-family: Raleway-SemiBold, sans-serif; */
 }
 
@@ -377,6 +377,8 @@ textarea.input100 {
     padding: 55px 45px 68px 45px;
   }
 }
+
+
 
 @media (max-width: 576px) {
   .wrap-contact100 {

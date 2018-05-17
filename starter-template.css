@@ -1,3 +1,8 @@
+html, body {
+    /* max-width: 100% !important; */
+    overflow-x: hidden !important;
+
+}
 body {
   padding-top: 50px;
   font-family: 'Open Sans', sans-serif;
@@ -180,4 +185,50 @@ address a:hover{
 
 .findhere{
   margin-top:50px;
+}
+
+@media (max-width: 1200px){
+
+.navbar-header{
+  display:flex;
+}
+.container {
+    /* width: 1100px; */
+}
+.navbar-brand>img {
+  width:17%;
+}
+.navbar {
+    min-height: 140px;
+}
+.navbar-nav>li>a {
+    padding-top: 16px;
+}
+
+}
+
+@media (max-width: 768px){
+  .navbar-header{
+    display:inline;
+  }
+  .navbar-toggle{
+    margin-top:48px;
+  }
+}
+@media (max-width: 453px){
+  .navbar-brand>img {
+      width: 23%;
+  }
+  .navbar-toggle{
+    margin-top:34px;
+  }
+}
+
+@media (max-width: 370px){
+  .navbar-brand>img {
+      width: 28%;
+  }
+  .navbar-toggle{
+    margin-top:38px;
+  }
 }
