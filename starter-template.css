@@ -247,6 +247,9 @@ address a:hover{
   .navbar-toggle{
     margin-top:34px;
   }
+  address a{
+    font-size: 90% !important;
+  }
 }
 
 @media (max-width: 370px){
