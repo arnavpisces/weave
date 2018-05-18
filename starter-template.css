@@ -200,6 +200,17 @@ address a:hover{
   position: relative;
   width: 100%;
 }
+.contactus{
+  text-align: center;
+
+}
+
+.contactlink{
+  font-weight: bold;
+  color:#F5A623;
+  font-size: 30px;
+
+}
 
 @media (max-width: 1200px){
 
