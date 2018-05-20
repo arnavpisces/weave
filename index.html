@@ -41,7 +41,7 @@
 
     <div id="overlay">
     <div id="overlay-content">
-    <img class="loadinglogo" src="logo.png">
+    <!-- <img class="loadinglogo" src="logo.png"> -->
     </div>
     </div>
 
@@ -153,17 +153,24 @@ var firsttime=false;
 // sessionStorage.setItem('firsttime','true');
 
 $.fn.center = function () {
+// this.css("display","flex");
+// this.css
 
-this.css("position","absolute");
-this.css("top", Math.max(0, (
-($(window).height() - $(this).outerHeight()) / 2) +
- $(window).scrollTop()) + "px"
-);
-this.css("left", Math.max(0, (
-($(window).width() - $(this).outerWidth()) / 2) +
- $(window).scrollLeft()) + "px"
-);
-return this;
+if($(window).width()<600){
+this.css("background-size","50%");}
+else{
+  this.css("background-size","28%");
+}
+// this.css("position","absolute");
+// this.css("top", Math.max(0, (
+// ($(window).height() - $(this).outerHeight()) / 2) +
+//  $(window).scrollTop()) + "px"
+// );
+// this.css("left", Math.max(0, (
+// ($(window).width() - $(this).outerWidth()) / 2) +
+//  $(window).scrollLeft()) + "px"
+// );
+// return this;
 }
 var firsttime=sessionStorage.getItem('firsttime');
 console.log(firsttime);

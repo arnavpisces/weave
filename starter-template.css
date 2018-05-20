@@ -107,17 +107,34 @@ address a:hover{
 	position: absolute;
   text-align: center;
   vertical-align: middle;
-	display: none;
+  margin: 0 auto;
+  /* width: 50%; */
 	/* width: 360px; */
 	/* height: 90px; */
 	/* padding: 16px; */
 	/* border: 16px solid orange; */
 	background-color: white;
-	z-index:1002;
+    display : block;
+    z-index: 2000;
+    background-image : url('logo.png');
+    background-color:white;
+    opacity : 1;
+    background-repeat : no-repeat;
+    background-position : center;
+    left : 0;
+    bottom : 0;
+    right : 0;
+    top : 0;
 }
+
 .loadinglogo{
-  text-align: center;
-  width: 50%;
+  /* width: 50%; */
+  /* text-align: center; */
+  left : 50%;
+    top : 50%;
+    position : absolute;
+    z-index: 2000;
+
 }
 .coming{
     width: 100%;
