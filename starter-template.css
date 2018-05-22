@@ -229,6 +229,14 @@ address a:hover{
 
 }
 
+.aboutPeopleRow .peopleBox .people h3, .peoplePopUp h3{
+  font-size: 23px;
+}
+
+.aboutPeopleRow .peopleBox .people{
+  /* width:20%; */
+}
+
 @media (max-width: 1200px){
 
 .navbar-header{
@@ -249,12 +257,21 @@ address a:hover{
 
 }
 
+@media (max-width: 992px){
+  .aboutPeopleRow .peopleBox .people{
+    /* width:20%; */
+  }
+}
+
 @media (max-width: 768px){
   .navbar-header{
     display:inline;
   }
   .navbar-toggle{
     margin-top:48px;
+  }
+  .aboutPeopleRow .peopleBox .people{
+    /* width:45%; */
   }
 }
 @media (max-width: 453px){

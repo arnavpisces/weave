@@ -45,7 +45,42 @@
     </div>
     </div>
 
+    <script>
+    var firsttime=false;
+    // sessionStorage.setItem('firsttime','true');
 
+    $.fn.center = function () {
+    // this.css("display","flex");
+    // this.css
+
+    if($(window).width()<600){
+    this.css("background-size","50%");}
+    else{
+      this.css("background-size","28%");
+    }
+    // this.css("position","absolute");
+    // this.css("top", Math.max(0, (
+    // ($(window).height() - $(this).outerHeight()) / 2) +
+    //  $(window).scrollTop()) + "px"
+    // );
+    // this.css("left", Math.max(0, (
+    // ($(window).width() - $(this).outerWidth()) / 2) +
+    //  $(window).scrollLeft()) + "px"
+    // );
+    // return this;
+    }
+    var firsttime=sessionStorage.getItem('firsttime');
+    console.log(firsttime);
+    if(false==false){
+      sessionStorage.setItem('firsttime','true');
+
+    $("#overlay").show();
+    $("#overlay-content").show().center();
+
+    setTimeout(function(){
+    $("#overlay").fadeOut();
+    }, 1000);}
+    </script>
 
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -149,42 +184,7 @@
 
 </footer>
 <!--/.Footer-->
-<script>
-var firsttime=false;
-// sessionStorage.setItem('firsttime','true');
 
-$.fn.center = function () {
-// this.css("display","flex");
-// this.css
-
-if($(window).width()<600){
-this.css("background-size","50%");}
-else{
-  this.css("background-size","28%");
-}
-// this.css("position","absolute");
-// this.css("top", Math.max(0, (
-// ($(window).height() - $(this).outerHeight()) / 2) +
-//  $(window).scrollTop()) + "px"
-// );
-// this.css("left", Math.max(0, (
-// ($(window).width() - $(this).outerWidth()) / 2) +
-//  $(window).scrollLeft()) + "px"
-// );
-// return this;
-}
-var firsttime=sessionStorage.getItem('firsttime');
-console.log(firsttime);
-if(false==false){
-  sessionStorage.setItem('firsttime','true');
-
-$("#overlay").show();
-$("#overlay-content").show().center();
-
-setTimeout(function(){
-$("#overlay").fadeOut();
-}, 1000);}
-</script>
 
   <script>
   $(document).ready(function(){
