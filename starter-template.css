@@ -47,10 +47,10 @@ body {
 }
 .starter-template h1{
   font-weight: bold;
-  /* padding-top: 5px; */
+  padding-top: 5px;
 }
-.starter-template span{
-  font-size: 100%;
+.starter-template .adjacent{
+  font-size: 62%;
   font-weight: normal;
 }
 
